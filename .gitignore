@@ -1,0 +1,56 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+.Python
+
+# -------------------------
+# Jupyter / Local Dev
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------
+# Terraform
+# -------------------------
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# -------------------------
+# AWS credentials / security
+# -------------------------
+*.pem
+*.key
+*.crt
+aws_config/
+.aws/
+credentials.json
+
+# -------------------------
+# Logs / temp / OS-specific
+# -------------------------
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Sample Output or Local Test Data
+# -------------------------
+sample_output/
+local_data/
+*.json
